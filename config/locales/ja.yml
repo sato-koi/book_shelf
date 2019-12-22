@@ -2,7 +2,17 @@ ja:
   activerecord:
     models:
       user: ユーザー
+      book: 書籍
     attributes:
+      book:
+        title: タイトル
+        price: 価格
+        publish_date: 発売日
+        description: 詳細
+        new_image: 画像
+        image: 画像
+        category_id: カテゴリー
+        category: カテゴリー
       user:
         email: メールアドレス
         nick_name: ニックネーム
